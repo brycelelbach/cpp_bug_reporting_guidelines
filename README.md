@@ -65,9 +65,13 @@ when following the Steps to Reproduce.
 * Any files created when performing the Steps to Reproduce are part of the Observed Output.
 * For command line applications, the Observed Output includes the entire textual output of running the Steps to Reproduce on your command line.
 * For graphical applications, the Observed Output includes screenshots or screen recordings as you perform the Steps to Reproduce.
+* To the best of your ability, explain why the Observed Output happened.
 
-The Expected Output is the result that you anticipated would happen. You should
-explain why you believe the Expected Output is the correct behavior.
+The Expected Output is the result that you anticipated would happen instead of
+the Observed Output.
+
+* You should explain why you believe the Expected Output is the correct behavior.
+* Support your explaination by citing documentation, standards or existing best practice.
 
 ## Environment
 
