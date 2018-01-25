@@ -57,7 +57,7 @@ report.
 * You must verify that the Steps to Reproduce produce the Observed Output in
 the Environment.
 
-## Observed Output
+## Observed and Expected Output
 
 The Observed Output is the complete and unabridged output that you experience
 when following the Steps to Reproduce.
@@ -65,6 +65,9 @@ when following the Steps to Reproduce.
 * Any files created when performing the Steps to Reproduce are part of the Observed Output.
 * For command line applications, the Observed Output includes the entire textual output of running the Steps to Reproduce on your command line.
 * For graphical applications, the Observed Output includes screenshots or screen recordings as you perform the Steps to Reproduce.
+
+The Expected Output is the result that you anticipated would happen. You should
+explain why you believe the Expected Output is the correct behavior.
 
 ## Environment
 
