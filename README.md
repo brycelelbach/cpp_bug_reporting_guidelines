@@ -81,12 +81,14 @@ to Reproduce.
 
 The following must be included in the Environment: 
 
-* Version of the software you are reporting the bug against.
+* Version of the software you are reporting the bug against. Try a few different versions and attempt to determine which version are broken, and which (if any) are not broken.
+* Whether or not the bug is a regression. A regression is a bug that did not occur with an earlier version of the software.
 * Name and versions of all software used in the Test Case or Steps to Reproduce.
 * Compiler Toolchain Type and Version
 * Operating System Type and Version
 * CPU Architecture
 * Kernel Type and Version
+
 
 # Examples
 
