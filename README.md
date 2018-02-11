@@ -17,7 +17,8 @@ A good bug report consists of:
 
 * Test Case: Minimal and complete code that demonstrates the bug.
 * Steps to Reproduce: The step of actions will produce the Observed Output using the Test Case when performed in the Environment.
-* Observed Output: The complete and unabridged output that you experience when following the Steps to Reproduce.
+* Expected Output: Your expectation of what should have happened when following the Steps to Reproduce.
+* Observed Output: The complete and unabridged output that you experienced when following the Steps to Reproduce instead of the Expected Output.
 * Environment: The Environment is a description of the software and hardware configuration that you used when you experienced the Observed Output by following the Steps to Reproduce. 
 
 ## Test Case
@@ -57,21 +58,23 @@ report.
 * You must verify that the Steps to Reproduce produce the Observed Output in
 the Environment.
 
-## Observed and Expected Output
+## Expected Output
 
-The Observed Output is the complete and unabridged output that you experience
-when following the Steps to Reproduce.
+The Expected Output is your expectation of what you believe should have
+happened when you followed the Steps to Reproduce.
+
+* You should explain why you believe the Expected Output is the correct behavior.
+* Support your explaination by citing documentation, standards or existing best practice.
+
+## Observed Output
+
+The Observed Output is the complete and unabridged output that you experienced
+when following the Steps to Reproduce instead of the Expected Output
 
 * Any files created when performing the Steps to Reproduce are part of the Observed Output.
 * For command line applications, the Observed Output includes the entire textual output of running the Steps to Reproduce on your command line.
 * For graphical applications, the Observed Output includes screenshots or screen recordings as you perform the Steps to Reproduce.
 * To the best of your ability, explain why the Observed Output happened.
-
-The Expected Output is the result that you anticipated would happen instead of
-the Observed Output.
-
-* You should explain why you believe the Expected Output is the correct behavior.
-* Support your explaination by citing documentation, standards or existing best practice.
 
 ## Environment
 
@@ -88,7 +91,6 @@ The following must be included in the Environment:
 * Operating System Type and Version
 * CPU Architecture
 * Kernel Type and Version
-
 
 # Examples
 
